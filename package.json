@@ -1,0 +1,30 @@
+{
+  "name": "express-jwt-session-otp-auth",
+  "version": "1.0.0",
+  "description": "Express authentication API with JWT, session management, token rotation and email OTP verification",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "authentication",
+    "session",
+    "otp",
+    "token-rotation"
+  ],
+  "author": "Shamim Shahriyar",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.4",
+    "morgan": "^1.10.1",
+    "nodemailer": "^8.0.2"
+  }
+}
